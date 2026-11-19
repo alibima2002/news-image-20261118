@@ -28,25 +28,29 @@ programmatically with Python/PIL (`draw_entry.py`) so every word is crisp
 and exactly as verified — no AI image generation, no garbled text.
 
 It names the day up front — **WEDNESDAY 18 NOVEMBER 2026** — and shows six
-stories, each first reported on 18 November 2026 (in some time zone):
+stories, ranked by international significance and verified against primary
+or multiple independent sources:
 
-1. **Trump opens Asia tour in Manila** — first Quad summit in two years;
-   meets Marcos today, then Xi and Putin in Shenzhen. (Reuters/AP)
-2. **Bahrain says Iranian drones stopped** — Tehran claims a US radar was
-   hit; the US and Bahrain say all drones were intercepted, no damage.
-   (Al Jazeera / US Central Command)
-3. **Nvidia sales more than double** — revenue $115.8bn, up 103%; the board
-   says ex-CEO Huang will not return. (Nvidia)
-4. **Four nations press Israel to open Gaza aid** — Australia, Canada,
-   Italy and the UK cite flooding; WFP: one hot meal every two days.
-5. **Eisenkot bloc wins Knesset speaker vote** — Matan Kahana takes the
-   chair 66–52 as Netanyahu's rival tightens his grip.
-6. **Cyclone Akvan bears down on India** — severe storm by Wednesday
-   morning; landfall expected Friday on the Andhra coast. (IMD)
+1. **Iran strikes US bases in the Gulf** — Iran hits Ali Al Salem base in
+   Kuwait; Bahrain stops a third wave. US jets hit Qeshm Island on Tuesday.
+   (Reuters, 18 Nov)
+2. **Crimea bridge road arch collapses** — two nights of Ukrainian drone
+   and missile strikes drop the Kerch road span; rail resumes, road shut.
+   (Reuters-verified video, 18 Nov)
+3. **Trump–Marcos: big deal, nothing signed** — Trump claims a landmark
+   US–Philippines trade deal; Manila calls it an understanding, no text
+   released. (Manila Times / Rappler, 18 Nov)
+4. **Xi and Putin meet in Shenzhen** — leaders open APEC talks a day
+   before the Trump–Xi–Putin trilateral; Xi denounces protectionism.
+   (AFP / AP, 18 Nov)
+5. **Cyclone Akvan nears Andhra coast** — severe cyclone by Wednesday
+   morning; landfall Friday noon at 100–110 km/h; Orange alert. (IMD, 18 Nov)
+6. **Nvidia revenue doubles to $115.8bn** — up 103% on AI demand; the board
+   rules out Jensen Huang's return as CEO. (Nvidia, 18 Nov)
 
-Plus an "ALSO TODAY" strip: UN counts 372 civilians killed in Ukraine in
-October; Latvia approves the Kulbergs government; the US jails Asif
-Merchant for 27.5 years.
+Plus an "ALSO TODAY" strip: Peltola wins Alaska, Democrats 56–44 in the
+Senate; the US loses measles-free status after 26 years; the Board of Peace
+faults Israel and Hamas; Kahana elected Knesset speaker.
 
 ## How it runs
 
@@ -60,9 +64,11 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
 ## Note on timing
 
-This entry was built early on 18 November (around 01:00 UTC), so it covers
-the stories reported in the first hours of the day. A later version built
-near the deadline could add stories from later in the day.
+v1 was built early on 18 November (around 01:00 UTC), so it covered only
+the stories reported in the first hours of the day. This v2, built on
+19 November after the day ended everywhere, covers the full day — the
+Gulf escalation, the Crimea bridge collapse, the Trump–Marcos outcome,
+the Shenzhen summit and the rest of 18 November's news.
 
 ## License
 
